@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/pic"
+    android:alpha="0.9"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        >
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter email id"
+        android:textColorHint="@color/white"
+        android:id="@+id/mailidet"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:elevation="40dp"
+        android:background="@drawable/textboxes"
+        android:drawableRight="@drawable/ic_baseline_email_24"
+        android:padding="20dp"
+        android:textAlignment="textStart"
+        android:layout_margin="20dp"
+        />
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter password"
+            android:textColorHint="@color/white"
+            android:id="@+id/passwordet"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:elevation="40dp"
+            android:background="@drawable/textboxes"
+            android:drawableRight="@drawable/ic_baseline_lock_24"
+            android:padding="20dp"
+            android:textAlignment="textStart"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/loginbt"
+            android:padding="10dp"
+           android:layout_marginTop="50dp"
+            android:background="@drawable/submitbutton"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:id="@+id/signupbt"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/submitbutton"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
